@@ -1,0 +1,125 @@
+
+#intro-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #fff;;
+    margin-top: 50px;
+}
+
+#player-move
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: black;
+    color:#fff;
+}
+
+.boxes1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1
+{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    border: solid 2px black;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#box1 p
+{
+    font-size: 6rem;
+}
+
+#box1:hover {
+    background-color:aliceblue;
+}
+
+#box2 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    border: solid 2px black;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#box2 p {
+    font-size: 6rem;
+}
+#box2:hover {
+    background-color: aliceblue;
+}
+
+#box3 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    border: solid 2px black;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#box3 p {
+    font-size: 6rem;
+}
+
+#box3:hover {
+    background-color: aliceblue;
+}
+
+.reset-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset-id
+{
+    margin-top: 10px;
+    border: solid 1px black;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+    cursor: pointer;
+}
+#reset-id:hover
+{
+    background-color: black;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
